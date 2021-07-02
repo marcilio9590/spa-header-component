@@ -8,7 +8,7 @@ module.exports = {
     if (process.env.NODE_ENV !== 'production') {
       config.output.filename(`js/[name].js`)
     }
-    config.externals(['vue', 'vue-router'])
+    //config.externals(['vue', 'vue-router'])
   },
   filenameHashing: false
 }
